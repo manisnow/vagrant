@@ -1,0 +1,10 @@
+service ngnix status
+
+wget -qO- localhost // q for quite O for output to console
+
+ngnix default page location /etc/nginx/sites-enabled/default
+head -30  /etc/nginx/sites-enabled/default
+root /usr/share/nginx/www;
+
+sync folder
+cp -r /usr/share/nginx/www /vagarat/www
